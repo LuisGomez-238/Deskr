@@ -1,0 +1,165 @@
+.root {
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav {
+  /* background-color: #888; */
+  max-width: 100vw;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 2rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+nav > h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 9rem;
+}
+.signOut {
+  height: 5rem;
+  width: 12rem;
+  border-radius: 15px;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  background-color: #d3d3d3;
+}
+.top {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.VinDecoder {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  /* background-color: #888; */
+  margin-right: 0rem;
+  padding-top: 1rem;
+}
+.VinDecoder > h2 {
+  margin: 0;
+}
+.vinInput {
+  width: 20rem;
+  margin-top: 2rem;
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.info-container {
+  background-color: gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lookupButton {
+  background-color: #d3d3d3;
+  margin: 2rem;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  margin: .5rem;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  font-size: large;
+}
+.deals {
+  display: flex;
+  justify-self: start;
+}
+.DeskTool {
+  display: grid;
+  padding: 2rem;
+  padding-top: 1rem;
+  /* background-color: #888; */
+  width: 40%;
+}
+.DeskTool > button {
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  background-color: #d3d3d3;
+
+}
+.DeskTool > label {
+  /* background-color: #888; */
+  width: 10rem;
+}
+.DeskTool > h2 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.Lenders {
+  padding: 2rem;
+}
+
+.Chat {
+  padding: .5rem;
+  margin: 2rem;
+  border-radius: 15px;
+}
+.mainChat {
+  width: 90vw;
+  height: 50vh;
+  border-radius: 15px;
+}
+.mainChat > button {
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: #d3d3d3;
+}
+.LogInBackground {
+ /* position: relative; */
+ margin-left: 40rem;
+ margin-top: 10rem;
+ display: flex;
+}
+.auth-form-title {
+  font-size: 5rem;
+}
+.auth-form-subtitle {
+  font-size: 2.5rem;
+}
+.auth {
+  width: 5rem;
+  padding: .5rem;
+}
+.auth-form-title {
+  padding-bottom: 2rem;
+}
+.auth-input {
+  width: 25rem;
+}
+.username {
+  margin-bottom: 2rem;
+}
+.auth-button {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #d3d3d3;
+}
