@@ -8,7 +8,7 @@ import '../App.css'
 
 export function ChatsPage(props) {
     const chatProps = useMultiChatLogic(
-        '4c76521a-468c-4464-a075-fd29840c1ef3',
+        '44b27c92-3c20-447f-a782-618fa12a3021',
         props.user.username,
         props.user.secret
     );
